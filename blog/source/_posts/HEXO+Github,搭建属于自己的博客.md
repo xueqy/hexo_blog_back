@@ -9,7 +9,7 @@ tags:
 description: 
 ---
 
-&emsp;&emsp;Git 相关总结
+&emsp;&emsp;HEXO+Github,搭建属于自己的博客
 <!-- more -->
 ### HEXO+Github,搭建属于自己的博客
 
@@ -93,7 +93,7 @@ $ npm install
 >首次创建耐心等待10分钟左右审核，之后即可访问静态主页如：http://xueqy.github.io
 ##### 同步内容至 GitHub
 
->在Hexo目录下 git clone git@github.com:imzyf/xueqy.github.io.git
+>在Hexo目录下 git clone git@github.com:/xueqy.github.io.git
 >将public文件下的所有文件拷贝到xueqy.github.io下
 >git add .增加当前子目录下所有更改过的文件至index
 >git commit -m 'xxx'提交到本地
@@ -103,5 +103,5 @@ $ npm install
 ##### 设置 CNAME
 
 >在Github的网站目录下创建CNAME文件
->填写自己的域名如zyf.im，保存结束
+>填写自己的域名如xueqy.top，保存结束
 >登录域名服务商，然后添加记录，记录类型选择CNAME，记录值xueqy.github.io.(有个点)
